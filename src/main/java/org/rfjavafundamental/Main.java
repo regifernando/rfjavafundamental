@@ -63,18 +63,23 @@ public class Main {
         angka3 += angka3;
         int angka4 = 5;
         angka4++;
+//
+//        boolean cek = 2==2;
+//        boolean cek1 = 2>2;
+//        boolean cek2 = 2==-2;
+//        boolean cek3 = 2!='2';
+//
+//        System.out.print("Tessy");
+//
+//        System.out.print("Wahyuni");
+//
+//        System.out.print("Riwayati");
+//
+//        System.out.print("Hartati");
 
-        boolean cek = 2==2;
-        boolean cek1 = 2>2;
-        boolean cek2 = 2==-2;
-        boolean cek3 = 2!='2';
-
-        System.out.print("Tessy");
-
-        System.out.print("Wahyuni");
-
-        System.out.print("Riwayati");
-
-        System.out.print("Hartati");
+        double satu = 8.3;
+        double dua = 4.4;
+        int jumlEntry = (int)(satu + dua);
+        System.out.println("Hasil : " + jumlEntry);
     }
 }
