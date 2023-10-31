@@ -49,5 +49,32 @@ public class Main {
         // debug f8
         // f9 next pinned debug
 
+        double hasil = 75 / 8;
+        System.out.println(hasil);
+
+        //int count = 2 = 2;
+        System.out.println("hasil 2 = 2  : " );
+
+        int angka1 = 5;
+        angka1--;
+        int angka2 = 5;
+        angka2 /= angka2;
+        int angka3 = 5;
+        angka3 += angka3;
+        int angka4 = 5;
+        angka4++;
+
+        boolean cek = 2==2;
+        boolean cek1 = 2>2;
+        boolean cek2 = 2==-2;
+        boolean cek3 = 2!='2';
+
+        System.out.print("Tessy");
+
+        System.out.print("Wahyuni");
+
+        System.out.print("Riwayati");
+
+        System.out.print("Hartati");
     }
 }
