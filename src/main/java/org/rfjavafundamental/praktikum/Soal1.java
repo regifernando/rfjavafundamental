@@ -22,13 +22,13 @@ public class Soal1 {
         int totalAscii = countAscii(word);
 
 
-        //String boldItalicOrangeText = "\u001B[1m\u001B[3m\u001B[38;5;208m";
+        String boldItalicOrangeText = "\u001B[1m\u001B[3m\u001B[38;5;208m";
 
-        //String resetFormatting = "\u001B[0m";
+        String resetFormatting = "\u001B[0m";
 
-        //System.out.println("Output dari input " + boldItalicOrangeText + word + resetFormatting + " adalah " + boldItalicOrangeText + totalAscii + resetFormatting);
+        System.out.println("Output dari input " + boldItalicOrangeText + word + resetFormatting + " adalah " + boldItalicOrangeText + totalAscii + resetFormatting);
 
-        System.out.println("Output : " + totalAscii);
+        //System.out.println("Output : " + totalAscii);
     }
 
     public static int countAscii(String word) {

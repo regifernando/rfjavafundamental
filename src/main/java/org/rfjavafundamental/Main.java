@@ -81,5 +81,83 @@ public class Main {
         double dua = 4.4;
         int jumlEntry = (int)(satu + dua);
         System.out.println("Hasil : " + jumlEntry);
+
+        int perhitungan = 10+2/(1*2);
+        System.out.println("Hasil Perhitungan adalah : " + perhitungan);
+
+//        int x = 20;
+//
+//        int c = x;
+//
+//        x = x + 1;
+//
+//        c = c + x;
+//        System.out.println(c);
+
+        char yChar = 'Y';
+
+        int yInt = (int) yChar;
+
+        int x = 10 & 12;
+
+        System.out.println(x);
+        String strSambung = "8"+3;
+        System.out.println(strSambung);
+
+        String strThird = "Welcome";
+
+        System.out.println(strThird.substring(4));
+
+        for(int ab = 1; ab< 5; ab++){
+            System.out.print(ab + ",");
+        }
+
+        System.out.println();
+        int [][] angkaKu = {{1,2,3,4},{5,6,7}};
+
+        int xx= angkaKu[1][2];
+
+        System.out.println("xx : " +xx);
+
+
+        String istri[] = new String[4];
+
+        System.out.println(istri.length);
+
+        int[] arr = {6, 3, 1, 2};
+        System.out.println(arr[3]);
+
+        System.out.println("Result Question 8 : " + question8());
+        System.out.println("Result Question 9 : " + question9());
+
     }
+
+    static int question8() {
+        int[] array = {2, 7, 3, 5, 8, 9};
+
+        int kuncen = array[0];
+
+        for (int i = 0; i < array.length; i++) {
+
+            if (array[i] > kuncen)
+
+                kuncen = array[i];
+
+        }
+
+        System.out.print(kuncen);
+        return kuncen;
+    }
+
+    static int question9(){
+        int [] tahun = new int [7];
+
+        tahun[0] = 2004;
+
+        tahun[1] = 2006;
+
+        System.out.println(tahun[0] + " " + tahun[1] + " " + tahun[7]);
+        return tahun[0] + tahun[1] + tahun[7];
+    }
+
 }
