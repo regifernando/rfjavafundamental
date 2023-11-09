@@ -1,4 +1,4 @@
-package org.rfjavafundamental.day11;
+package org.rfjavafundamental.day11And12;
 
 /*
 IntelliJ IDEA 2023.2.3 (Ultimate Edition)
@@ -11,6 +11,9 @@ Version 1.0
 */
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class OOP {
     public static void main(String[] args) {
         // OOP adalah teknik pemograman yang menggunakan object. Sebuah object merepresentasikan segala sesuatu
@@ -21,6 +24,21 @@ public class OOP {
         // contoh private class
         //PrivateClass privateClass = new PrivateClass();
 
+
+        // Print IFunction
+        IFunction functionOne = new FuncOneImpl();
+        IFunction functionTwo = new FuncTwoImpl();
+
+        functionOne.cetak();
+
+        List<String> list = new ArrayList<>();
+    }
+
+    public static void encapsulation(){
+        // Tujuan encapsulation diantaranya:
+        // Untuk meningkatkan keamanan data;
+        // Agar lebih mudah dalam mengontrol atribut dan dan method;
+        // Class bisa kita buat menjadi read-only dan write-only;
 
     }
 }
