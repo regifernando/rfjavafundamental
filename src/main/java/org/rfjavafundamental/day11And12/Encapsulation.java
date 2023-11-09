@@ -1,4 +1,4 @@
-package org.rfjavafundamental.day11;
+package org.rfjavafundamental.day11And12;
 
 /*
 IntelliJ IDEA 2023.2.3 (Ultimate Edition)
